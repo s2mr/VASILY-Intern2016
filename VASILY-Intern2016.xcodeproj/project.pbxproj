@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		202084851D0FE92900F67D97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202084841D0FE92900F67D97 /* AppDelegate.swift */; };
+		202084871D0FE92900F67D97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202084861D0FE92900F67D97 /* ViewController.swift */; };
+		2020848A1D0FE92900F67D97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 202084881D0FE92900F67D97 /* Main.storyboard */; };
+		2020848C1D0FE92900F67D97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2020848B1D0FE92900F67D97 /* Assets.xcassets */; };
+		2020848F1D0FE92900F67D97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2020848D1D0FE92900F67D97 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		202084811D0FE92900F67D97 /* VASILY-Intern2016.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VASILY-Intern2016.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		202084841D0FE92900F67D97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		202084861D0FE92900F67D97 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		202084891D0FE92900F67D97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2020848B1D0FE92900F67D97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2020848E1D0FE92900F67D97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		202084901D0FE92900F67D97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2020847E1D0FE92900F67D97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		202084781D0FE92900F67D97 = {
+			isa = PBXGroup;
+			children = (
+				202084831D0FE92900F67D97 /* VASILY-Intern2016 */,
+				202084821D0FE92900F67D97 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		202084821D0FE92900F67D97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				202084811D0FE92900F67D97 /* VASILY-Intern2016.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		202084831D0FE92900F67D97 /* VASILY-Intern2016 */ = {
+			isa = PBXGroup;
+			children = (
+				202084841D0FE92900F67D97 /* AppDelegate.swift */,
+				202084861D0FE92900F67D97 /* ViewController.swift */,
+				202084881D0FE92900F67D97 /* Main.storyboard */,
+				2020848B1D0FE92900F67D97 /* Assets.xcassets */,
+				2020848D1D0FE92900F67D97 /* LaunchScreen.storyboard */,
+				202084901D0FE92900F67D97 /* Info.plist */,
+			);
+			path = "VASILY-Intern2016";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		202084801D0FE92900F67D97 /* VASILY-Intern2016 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 202084931D0FE92900F67D97 /* Build configuration list for PBXNativeTarget "VASILY-Intern2016" */;
+			buildPhases = (
+				2020847D1D0FE92900F67D97 /* Sources */,
+				2020847E1D0FE92900F67D97 /* Frameworks */,
+				2020847F1D0FE92900F67D97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "VASILY-Intern2016";
+			productName = "VASILY-Intern2016";
+			productReference = 202084811D0FE92900F67D97 /* VASILY-Intern2016.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		202084791D0FE92900F67D97 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = kazu;
+				TargetAttributes = {
+					202084801D0FE92900F67D97 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 2020847C1D0FE92900F67D97 /* Build configuration list for PBXProject "VASILY-Intern2016" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 202084781D0FE92900F67D97;
+			productRefGroup = 202084821D0FE92900F67D97 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				202084801D0FE92900F67D97 /* VASILY-Intern2016 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2020847F1D0FE92900F67D97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2020848F1D0FE92900F67D97 /* LaunchScreen.storyboard in Resources */,
+				2020848C1D0FE92900F67D97 /* Assets.xcassets in Resources */,
+				2020848A1D0FE92900F67D97 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2020847D1D0FE92900F67D97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				202084871D0FE92900F67D97 /* ViewController.swift in Sources */,
+				202084851D0FE92900F67D97 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		202084881D0FE92900F67D97 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				202084891D0FE92900F67D97 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2020848D1D0FE92900F67D97 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2020848E1D0FE92900F67D97 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		202084911D0FE92900F67D97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		202084921D0FE92900F67D97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		202084941D0FE92900F67D97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "VASILY-Intern2016/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kazu.VASILY-Intern2016";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		202084951D0FE92900F67D97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "VASILY-Intern2016/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kazu.VASILY-Intern2016";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2020847C1D0FE92900F67D97 /* Build configuration list for PBXProject "VASILY-Intern2016" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				202084911D0FE92900F67D97 /* Debug */,
+				202084921D0FE92900F67D97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		202084931D0FE92900F67D97 /* Build configuration list for PBXNativeTarget "VASILY-Intern2016" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				202084941D0FE92900F67D97 /* Debug */,
+				202084951D0FE92900F67D97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 202084791D0FE92900F67D97 /* Project object */;
+}
