@@ -20,7 +20,7 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
     let queue:dispatch_queue_t = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0)
 
 
-    
+    //データ格納用配列
     var tweets_text:[String] = []
     var tweets_UserName:[String] = []
     var tweets_UserID:[String] = []
@@ -55,14 +55,17 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
     // MARK: - UICollectionViewDelegate Protocol
     func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
         let cell:CustomCell = collectionView.dequeueReusableCellWithReuseIdentifier("cell", forIndexPath: indexPath) as! CustomCell
+        //セルに取得したデータを格納
         cell.user_Id.text = tweets_UserID[indexPath.row]
         cell.userName.text = tweets_UserName[indexPath.row]
         cell.textView.text = tweets_text[indexPath.row]
         cell.date.text = tweets_Date[indexPath.row]
+        
+        //UIの設定
         cell.backgroundColor = UIColor.whiteColor()
         cell.layer.borderWidth = 0.3
         cell.layer.borderColor = UIColor.lightGrayColor().CGColor
-//        cell.frame.size.height = cell.textView.frame.size.height
+
         let url = NSURL(string:tweets_IconUrl[indexPath.row])
         let req = NSURLRequest(URL:url!)
         //非同期で変換
@@ -89,7 +92,6 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         //一番下までスクロールしたかどうか
         if(self.collectionView.contentOffset.y >= (self.collectionView.contentSize.height - self.collectionView.bounds.size.height))
         {
-            //ここで次に表示する件数を取得して表示更新の処理を書けばOK
             
             if frag {
             getTimeline()
@@ -139,7 +141,7 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
     
     private func selectTwitterAccount() {
         
-        // 認証するアカウントのタイプを選択（他にはFacebookやWeiboなどがある）
+        // 認証するアカウントのタイプを選択
         let accountType = accountStore.accountTypeWithAccountTypeIdentifier(ACAccountTypeIdentifierTwitter)
         accountStore.requestAccessToAccountsWithType(accountType, options: nil) { (granted:Bool, error:NSError?) -> Void in
             if error != nil {
@@ -196,7 +198,7 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
     private func getTimeline() {
         let URL = NSURL(string: "https://api.twitter.com/1.1/search/tweets.json")
         
-        // GET/POSTやパラメータに気をつけてリクエスト情報を生成
+        // リクエスト情報を生成
         var request = SLRequest(forServiceType: SLServiceTypeTwitter,
                                 requestMethod: .GET,
                                 URL: URL,
