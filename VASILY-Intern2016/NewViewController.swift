@@ -17,7 +17,7 @@ class NewViewController: TWTRTimelineViewController {
         
         // Swift
         let client = TWTRAPIClient()
-        let dataSource = TWTRSearchTimelineDataSource(searchQuery: "#iQON", APIClient: client)
+        let dataSource = TWTRSearchTimelineDataSource(searchQuery: "iQON", APIClient: client)
         
         self.dataSource = dataSource
         self.showTweetActions = true
