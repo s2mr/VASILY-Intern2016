@@ -60,6 +60,8 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         cell.textView.text = tweets_text[indexPath.row]
         cell.date.text = tweets_Date[indexPath.row]
         cell.backgroundColor = UIColor.whiteColor()
+        cell.layer.borderWidth = 0.3
+        cell.layer.borderColor = UIColor.lightGrayColor().CGColor
 //        cell.frame.size.height = cell.textView.frame.size.height
         let url = NSURL(string:tweets_IconUrl[indexPath.row])
         let req = NSURLRequest(URL:url!)
@@ -219,7 +221,7 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
             else {
                 // 結果の表示
                 do {
-                    let a = try NSJSONSerialization.JSONObjectWithData(responseData, options: .MutableContainers)
+                    let _ = try NSJSONSerialization.JSONObjectWithData(responseData, options: .MutableContainers)
 //                    print(a)
                 } catch  {
                 }

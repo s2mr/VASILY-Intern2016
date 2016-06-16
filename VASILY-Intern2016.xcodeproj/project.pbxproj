@@ -12,10 +12,7 @@
 		2020848A1D0FE92900F67D97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 202084881D0FE92900F67D97 /* Main.storyboard */; };
 		2020848C1D0FE92900F67D97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2020848B1D0FE92900F67D97 /* Assets.xcassets */; };
 		2020848F1D0FE92900F67D97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2020848D1D0FE92900F67D97 /* LaunchScreen.storyboard */; };
-		202084971D0FF06600F67D97 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202084961D0FF06600F67D97 /* CustomCell.swift */; };
 		202084A31D0FFE4300F67D97 /* TwitterCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2020849F1D0FFE4300F67D97 /* TwitterCore.framework */; };
-		202084A51D1065FC00F67D97 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202084A41D1065FC00F67D97 /* LoginViewController.swift */; };
-		202084A71D1066DB00F67D97 /* TwitterAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202084A61D1066DB00F67D97 /* TwitterAPI.swift */; };
 		62CF2B92D898D882CB62914E /* Pods_VASILY_Intern2016.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 680CDFC6B7C0B3167FDBD69C /* Pods_VASILY_Intern2016.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,10 +24,7 @@
 		2020848B1D0FE92900F67D97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2020848E1D0FE92900F67D97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		202084901D0FE92900F67D97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		202084961D0FF06600F67D97 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = SOURCE_ROOT; };
 		2020849F1D0FFE4300F67D97 /* TwitterCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterCore.framework; sourceTree = "<group>"; };
-		202084A41D1065FC00F67D97 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		202084A61D1066DB00F67D97 /* TwitterAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterAPI.swift; sourceTree = "<group>"; };
 		680CDFC6B7C0B3167FDBD69C /* Pods_VASILY_Intern2016.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VASILY_Intern2016.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8AE750DAD0C93488D694359 /* Pods-VASILY-Intern2016.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VASILY-Intern2016.release.xcconfig"; path = "Pods/Target Support Files/Pods-VASILY-Intern2016/Pods-VASILY-Intern2016.release.xcconfig"; sourceTree = "<group>"; };
 		EEA99F4E31B2074E946039DF /* Pods-VASILY-Intern2016.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VASILY-Intern2016.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VASILY-Intern2016/Pods-VASILY-Intern2016.debug.xcconfig"; sourceTree = "<group>"; };
@@ -77,9 +71,6 @@
 				2020848B1D0FE92900F67D97 /* Assets.xcassets */,
 				2020848D1D0FE92900F67D97 /* LaunchScreen.storyboard */,
 				202084901D0FE92900F67D97 /* Info.plist */,
-				202084961D0FF06600F67D97 /* CustomCell.swift */,
-				202084A41D1065FC00F67D97 /* LoginViewController.swift */,
-				202084A61D1066DB00F67D97 /* TwitterAPI.swift */,
 			);
 			path = "VASILY-Intern2016";
 			sourceTree = "<group>";
@@ -223,10 +214,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				202084A51D1065FC00F67D97 /* LoginViewController.swift in Sources */,
 				202084871D0FE92900F67D97 /* ViewController.swift in Sources */,
-				202084971D0FF06600F67D97 /* CustomCell.swift in Sources */,
-				202084A71D1066DB00F67D97 /* TwitterAPI.swift in Sources */,
 				202084851D0FE92900F67D97 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
